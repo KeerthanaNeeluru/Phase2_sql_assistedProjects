@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "ViewBagSubmit";
+}
+@{
+    Layout = null;
+}
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewBagSubmit</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-6">
+            <h4>Result from ViewBag</h4>
+            @Html.Raw(ViewBag.name+"<br>"+ViewBag.address+"<br>"+ViewBag.sclass+"<br>"+ViewBag.year)
+        </div>
+    </div>
+</body>
+</html>

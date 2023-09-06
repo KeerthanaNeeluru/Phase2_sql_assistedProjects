@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "ViewDataSubmit";
+}
+@{
+    Layout = null;
+}
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewDataSubmit</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-6">
+            <h4>Result from TempData</h4>
+            @Html.Raw(ViewData["name"]+"<br>"+ViewData["address"]+"<br>"+ViewData["class"]+"<br>"+ViewData["year"])
+        </div>
+    </div>
+</body>
+</html>
