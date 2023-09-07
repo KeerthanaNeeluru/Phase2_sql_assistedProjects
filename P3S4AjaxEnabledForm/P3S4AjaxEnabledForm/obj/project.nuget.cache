@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RIBNerYiHUn8VixiFDwc8T08B0vkmyh63HOsQqjXPFOfINYnqhalHOirtAsm7EicFX8l9mnr8/1itZUpHO+x+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Keerthana\\OneDrive\\Desktop\\job\\simpliearn_mysql\\Assisted Projects\\P3S4AjaxEnabledForm\\P3S4AjaxEnabledForm\\P3S4AjaxEnabledForm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Keerthana\\.nuget\\packages\\jquery\\1.8.0\\jquery.1.8.0.nupkg.sha512",
+    "C:\\Users\\Keerthana\\.nuget\\packages\\microsoft.jquery.unobtrusive.ajax\\3.2.6\\microsoft.jquery.unobtrusive.ajax.3.2.6.nupkg.sha512"
+  ],
+  "logs": []
+}
