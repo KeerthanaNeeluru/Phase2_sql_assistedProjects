@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <h4>Form Submission using GET</h4>
+            <form method="get" action="Home/FormGet">
+                <div class="row">
+                    <div class="col-sm-4">Student Name</div>
+                    <div class="col-sm-8"><input class="form-control" name="name"/></div>
+                </div>  
+                <div class="row">
+                    <div class="col-sm-4">Student Email</div>
+                    <div class="col-sm-8"><input class="form-control" name="email" /></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">Student Class</div>
+                    <div class="col-sm-8"><input class="form-control" name="class" /></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">Student Address</div>
+                    <div class="col-sm-8"><input class="form-control" name="address" /></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-right">
+                        <button class="btn btn-default">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-sm-6">
+            <h4>Form Submission using POSTS</h4>
+            <form method="get" action="Home/FormPost">
+                <div class="row">
+                    <div class="col-sm-4">Student Name</div>
+                    <div class="col-sm-8"><input class="form-control" name="name" /></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">Student Email</div>
+                    <div class="col-sm-8"><input class="form-control" name="email" /></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">Student Class</div>
+                    <div class="col-sm-8"><input class="form-control" name="whichclass" /></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">Student Address</div>
+                    <div class="col-sm-8"><input class="form-control" name="address" /></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-right">
+                        <button class="btn btn-default">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
