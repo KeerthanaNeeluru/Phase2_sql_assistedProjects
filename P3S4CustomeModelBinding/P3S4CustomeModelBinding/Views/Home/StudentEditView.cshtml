@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "StudentEditView";
+}
+
+<h1>StudentEditView</h1>
+<div class="container">
+    <div class="row">
+        <div class=" col-sm-6">
+            @using (Html.BeginForm())
+            {
+                @Html.EditorForModel("StudentModel")
+                <button class="btn btn-default"> save </button>
+            }
+        </div>
+    </div>
+</div>
